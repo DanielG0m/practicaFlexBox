@@ -2,15 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-.contenedor{
+main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-img{
-    padding: 5px;
-    width: 400px;
+nav{
+    order: -1;
+    background-color: #BBBBBB;
 }
+
+article{
+    background-color: #AAAAAA;
+}
+
+aside{
+    background-color: #CCCCCC;
+}
+
+article, nav, aside{
+    flex-grow: 1;
+    height: 400px;
+    justify-items: center;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #F1F1F1;
+}
+
