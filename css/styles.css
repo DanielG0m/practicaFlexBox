@@ -1,94 +1,89 @@
 *{
     margin: 0;
-    padding: 2px;
+    padding: 0;
     box-sizing: border-box;
+}
 
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    margin: 5px;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
-}
-
-
-.sec1{
-    display: flex;
-    flex-direction: column;
-    border: red;
-    border: 1px solid black;
-}
-
-
-.menu-btn{
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
+    background-color:  salmon;
+    padding: 20px;
 }
 
 footer{
-    display:  flex;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
 }
 
-.blankSpace{
-    height: 40px;
+h3, h4{
+    padding: 10px;
 }
 
-ul{
-    list-style-type: none;
-    padding: 1px;
+#box{
+    height: 400px;
+    width: 400px;
 }
 
-.bd{ 
+#box2{
+    height: 200px;
+    width: 400px;
+}
+
+#box3{
+    height: 200px;
+    width: 688px;
+}
+
+#box, #box2 {
+    padding: 10px;
+}
+
+.title, .sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbars {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    background-color: #1FBF92;
+    padding: 15px;
 }
 
 .container{
     display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.aside{
+    display: flex;
     flex-direction: column;
-    border: 1px solid black;
-}
-
-.dashboard2{
-    display: inline-block;
-    
-}
-
-.cajas{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin: 10px;
-    
-}
-
-.caja1{
     margin: 5px;
-    border: 1px solid black;
 }
 
-
-p{
-    padding: 6.5px;
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
 }
 
-.parragraph{
-    height: 10px;
-    margin: 10px;
-    background-color: forestgreen;
-}
-
-@media screen and (max-width: 1000px){
-    
-}
-
-@media screen and (max-width: 1210px){
-    
-}
-
-@media screen and (max-height: 650px) {
-
+.not, .not2{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
 }
